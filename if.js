@@ -1,6 +1,14 @@
-var averageGrade = 92;
+var friend = "Andy";
 
-if (averageGrade > 70)
+if (friend === "Barry" || friend === "Cory" || friend === "Teal")
 {
-    console.log("You passed the class! Way to go!");
+    console.log("Hello friend!");
+}
+else if (friend === "Stephanie" || friend === "Dickhead")
+{
+    console.log("Fuck off, " + friend);
+}
+else
+{
+    console.log("Hello, stranger!");
 }
